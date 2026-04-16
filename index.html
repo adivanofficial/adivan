@@ -2,24 +2,29 @@
 <html>
 <head>
     <title>Adivan Food</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
         body {
-            font-family: Arial;
             margin: 0;
-            background: linear-gradient(to right, #fff3e0, #ffe0b2);
+            font-family: Arial, sans-serif;
+            background: #fff;
         }
 
         header {
-            background: #ff5722;
+            background: linear-gradient(45deg, #ff5722, #ff9800);
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 20px;
         }
 
         .hero {
             text-align: center;
-            padding: 40px;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 28px;
         }
 
         .btn {
@@ -28,25 +33,35 @@
             padding: 12px 25px;
             text-decoration: none;
             border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background: #e64a19;
         }
 
         .products {
             text-align: center;
-            padding: 20px;
+            padding: 40px;
+            background: #f9f9f9;
         }
 
         .card {
             display: inline-block;
             background: white;
-            padding: 15px;
+            padding: 20px;
             margin: 10px;
             border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
             width: 200px;
         }
 
-        img {
-            width: 100%;
-            border-radius: 10px;
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
         }
     </style>
 </head>
@@ -61,32 +76,31 @@
 <div class="hero">
     <h2>Welcome to our brand 🔥</h2>
     <p>Ghar jaisa khana, pure desi andaaz me</p>
-
-    <a class="btn" href="https://wa.me/91XXXXXXXXXX">Order Now</a>
+    <a class="btn" href="https://wa.me/916268277322">Order Now</a>
 </div>
 
 <div class="products">
     <h2>Our Products</h2>
 
     <div class="card">
-        <img src="food.jpg">
-        <h3>Sabji</h3>
-        <p>Fresh ghar ki sabji</p>
+        <h3>Sabji 🥗</h3>
+        <p>Fresh homemade sabji</p>
     </div>
 
     <div class="card">
-        <img src="food.jpg">
-        <h3>Special Dish</h3>
-        <p>Special taste</p>
+        <h3>Special Dish 🍛</h3>
+        <p>Chef special items</p>
     </div>
 
     <div class="card">
-        <img src="food.jpg">
-        <h3>Homemade Food</h3>
-        <p>Healthy & tasty</p>
+        <h3>Homemade Food 🍲</h3>
+        <p>Healthy & tasty food</p>
     </div>
-
 </div>
+
+<footer>
+    <p>© 2026 Adivan Food | Made with ❤️</p>
+</footer>
 
 </body>
 </html>
