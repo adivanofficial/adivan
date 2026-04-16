@@ -2,27 +2,51 @@
 <html>
 <head>
     <title>Adivan Food</title>
+
     <style>
         body {
             font-family: Arial;
             margin: 0;
-            background: #fff3e0;
+            background: linear-gradient(to right, #fff3e0, #ffe0b2);
         }
+
         header {
             background: #ff5722;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
         }
+
         .hero {
             text-align: center;
-            padding: 50px;
+            padding: 40px;
         }
+
         .btn {
             background: #ff5722;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .products {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card {
+            display: inline-block;
+            background: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 200px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -37,11 +61,32 @@
 <div class="hero">
     <h2>Welcome to our brand 🔥</h2>
     <p>Ghar jaisa khana, pure desi andaaz me</p>
+
     <a class="btn" href="https://wa.me/91XXXXXXXXXX">Order Now</a>
 </div>
 
-<h2 style="text-align:center;">Our Products</h2>
-<p style="text-align:center;">• Sabji • Special Dish • Homemade Food</p>
+<div class="products">
+    <h2>Our Products</h2>
+
+    <div class="card">
+        <img src="food.jpg">
+        <h3>Sabji</h3>
+        <p>Fresh ghar ki sabji</p>
+    </div>
+
+    <div class="card">
+        <img src="food.jpg">
+        <h3>Special Dish</h3>
+        <p>Special taste</p>
+    </div>
+
+    <div class="card">
+        <img src="food.jpg">
+        <h3>Homemade Food</h3>
+        <p>Healthy & tasty</p>
+    </div>
+
+</div>
 
 </body>
 </html>
